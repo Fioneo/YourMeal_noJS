@@ -444,7 +444,7 @@ h1 {
 .menu_list_dekstop {
     display: none;
 }
-.footer_img_deksop {
+.footer_img_dekstop {
     display: none;
 }
 @media screen and (min-width: 500px) {
@@ -495,7 +495,7 @@ h1 {
     .order-list {
         display: none;
     }
-    .footer_img_deksop {
+    .footer_img_dekstop {
         display: none;
     }
 }
@@ -764,7 +764,7 @@ h1 {
         font-size: 16px;
         padding: 9px 14px;
     }
-    .footer_img_deksop {
+    .footer_img_dekstop {
         margin-right: 360px;
     }
 }
