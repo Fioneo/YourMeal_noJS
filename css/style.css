@@ -62,7 +62,7 @@ header {
 }
 .title-container {
     padding-bottom: 248px;
-    background: url(img/header/pic.png) bottom;
+    background: url(/YourMeal_noJS/img/header/pic.png) bottom;
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -125,7 +125,7 @@ h1 {
 .button_nav.burger::before {
     font-family: Nunito;
     content: "";
-    background-image: url(img/svg/Бургеры.svg);
+    background-image: url(/YourMeal_noJS/img/svg/Бургеры.svg);
     display: block;
     width: 24px;
     height: 24px;
@@ -133,7 +133,7 @@ h1 {
 .button_nav.zakyska::before {
     font-family: Nunito;
     content: "";
-    background-image: url(img/svg/Закуски.svg);
+    background-image: url(/YourMeal_noJS/img/svg/Закуски.svg);
     display: block;
     width: 24px;
     height: 24px;
@@ -141,7 +141,7 @@ h1 {
 .button_nav.hotdog::before {
     font-family: Nunito;
     content: "";
-    background-image: url(img/svg/Хот-доги.svg);
+    background-image: url(/YourMeal_noJS/img/svg/Хот-доги.svg);
     display: block;
     width: 24px;
     height: 24px;
@@ -149,7 +149,7 @@ h1 {
 .button_nav.combo::before {
     font-family: Nunito;
     content: "";
-    background-image: url(img/svg/Комбо.svg);
+    background-image: url(/YourMeal_noJS/img/svg/Комбо.svg);
     display: block;
     width: 24px;
     height: 24px;
@@ -157,7 +157,7 @@ h1 {
 .button_nav.shayrma::before {
     font-family: Nunito;
     content: "";
-    background-image: url(img/svg/Шаурма.svg);
+    background-image: url(/YourMeal_noJS/img/svg/Шаурма.svg);
     display: block;
     width: 24px;
     height: 24px;
@@ -165,7 +165,7 @@ h1 {
 .button_nav.pizza::before {
     font-family: Nunito;
     content: "";
-    background-image: url(img/svg/Пицца.svg);
+    background-image: url(/YourMeal_noJS/img/svg/Пицца.svg);
     display: block;
     width: 24px;
     height: 24px;
@@ -173,7 +173,7 @@ h1 {
 .button_nav.vok::before {
     font-family: Nunito;
     content: "";
-    background-image: url(img/svg/Вок.svg);
+    background-image: url(/YourMeal_noJS/img/svg/Вок.svg);
     display: block;
     width: 24px;
     height: 24px;
@@ -181,7 +181,7 @@ h1 {
 .button_nav.desert::before {
     font-family: Nunito;
     content: "";
-    background-image: url(img/svg/Десерты.svg);
+    background-image: url(/YourMeal_noJS/img/svg/Десерты.svg);
     display: block;
     width: 24px;
     height: 24px;
@@ -189,7 +189,7 @@ h1 {
 .button_nav.sause::before {
     font-family: Nunito;
     content: "";
-    background-image: url(img/svg/sause.svg);
+    background-image: url(/YourMeal_noJS/img/svg/sause.svg);
     display: block;
     width: 24px;
     height: 24px;
@@ -231,7 +231,7 @@ h1 {
 .order-item {
     display: flex;
     padding: 10px 0 9px 70px;
-    background-image: url(img/menu/Rectangle2.jpg);
+    background-image: url(/YourMeal_noJS/img/menu/Rectangle2.jpg);
     background-position:left;
     background-repeat: no-repeat;
     background-size: 64px 52px;
@@ -300,7 +300,7 @@ h1 {
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url(img/svg/Доставка.svg);
+    background-image: url(/YourMeal_noJS/img/svg/Доставка.svg);
 }
 .confirm_add:hover {
     background-color: var(--main-orange);
@@ -368,7 +368,7 @@ h1 {
 }
 .menu_card::before {
     content: "";
-    background-image: url(img/menu/photo.jpg);
+    background-image: url(/YourMeal_noJS/img/menu/photo.jpg);
     display: block;
     width: 137px;
     height: 120px;
@@ -406,7 +406,7 @@ h1 {
 }
 .contacts a::before {
     content: "";
-    background-image: url(img/svg/Call.svg);
+    background-image: url(/YourMeal_noJS/img/svg/Call.svg);
     width: 24px;
     height: 24px;
     display: block;
@@ -619,7 +619,7 @@ h1 {
     }
     .menu_card_dekstop:nth-child(1)::before {
     content: "";
-    background-image: url(img/menu/burger-one.jpg);
+    background-image: url(/YourMeal_noJS/img/menu/burger-one.jpg);
     display: block;
     width: 276px;
     height: 220px;
@@ -627,7 +627,7 @@ h1 {
     }
     .menu_card_dekstop:nth-child(2)::before {
         content: "";
-        background-image: url(img/menu/burger-two.jpg);
+        background-image: url(/YourMeal_noJS/img/menu/burger-two.jpg);
         display: block;
         width: 276px;
         height: 220px;
@@ -635,7 +635,7 @@ h1 {
     }
     .menu_card_dekstop:nth-child(3)::before {
         content: "";
-        background-image: url(img/menu/burger-three.jpg);
+        background-image: url(/YourMeal_noJS/img/menu/burger-three.jpg);
         display: block;
         width: 276px;
         height: 220px;
@@ -643,7 +643,7 @@ h1 {
     }
     .menu_card_dekstop:nth-child(4)::before {
         content: "";
-        background-image: url(img/menu/burger-four.jpg);
+        background-image: url(/YourMeal_noJS/img/menu/burger-four.jpg);
         display: block;
         width: 276px;
         height: 220px;
@@ -651,7 +651,7 @@ h1 {
     }
     .menu_card_dekstop:nth-child(5)::before {
         content: "";
-        background-image: url(img/menu/burger-six.jpg);
+        background-image: url(/YourMeal_noJS/img/menu/burger-six.jpg);
         display: block;
         width: 276px;
         height: 220px;
@@ -659,7 +659,7 @@ h1 {
     }
     .menu_card_dekstop:nth-child(6)::before {
         content: "";
-        background-image: url(img/menu/burger-seven.jpg);
+        background-image: url(/YourMeal_noJS/img/menu/burger-seven.jpg);
         display: block;
         width: 276px;
         height: 220px;
@@ -712,10 +712,10 @@ h1 {
         display: none;
     }
     .order-item:nth-child(2) {
-        background-image: url(img/svg/Картошка.svg);
+        background-image: url(/YourMeal_noJS/img/svg/Картошка.svg);
     }
     .order-item:nth-child(3) {
-        background-image: url(img/svg/Хот-дог\(жгучий\).svg);
+        background-image: url(/YourMeal_noJS/img/svg/Хот-дог\(жгучий\).svg);
     }
     .button-list_nav {
         gap: 24px;
