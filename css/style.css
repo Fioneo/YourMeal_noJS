@@ -765,7 +765,8 @@ h1 {
         padding: 9px 14px;
     }
     .footer_img_dekstop {
-        margin-right: 360px;
+        display: block;
+        margin-right: 242px;
     }
 }
 @media screen and (min-width: 1440px) {
@@ -797,6 +798,9 @@ h1 {
     }
     .menu_list_dekstop {
         max-width: 1100px;
+    }
+    .footer_img_dekstop {
+        margin-right: 360px;
     }
 }
 @media screen and (min-width: 1600px) {
