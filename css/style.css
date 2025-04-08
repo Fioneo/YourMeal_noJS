@@ -111,16 +111,12 @@ h1 {
     border: 2px solid #ffffff;
 }
 .button_nav:hover, .burger_nav:focus-visible {
-    border: 2px solid var(--orange);
+    border: 2px solid var(--main-orange);
 }
 @supports not selector(:focus-visible) {
     .button_nav:focus {
-        border: 2px solid var(--orange);
+        border: 2px solid var(--main-orange);
     }
-}
-.button_nav.burger_nav_active{
-    background-color: var(--main-orange);
-    pointer-events: none;
 }
 .button_nav.burger::before {
     font-family: Nunito;
@@ -194,6 +190,9 @@ h1 {
     width: 24px;
     height: 24px;
 }
+.button_nav_active {
+    background-color: var(--main-orange);
+  }
 .korzina {
     justify-content: space-between;
     display: flex;
@@ -502,6 +501,8 @@ h1 {
 @media screen and (min-width: 768px) {
     .container {
         padding: 0 64px;
+        min-width: 660px;
+        margin: 0 auto;
     }
     header {
         background-size: 2540px;
@@ -551,15 +552,16 @@ h1 {
     }
 }
 @media screen and (min-width: 1024px) {
-    .body {
-        display: flex;
-        justify-content: center;
-    }
     .container {
         padding: 0 32px;
+        width: 960px;
+        margin: 0 auto;
     }
     .button-list_nav {
         margin: 0 auto;
+    }
+    .button_name {
+        font-size: 40px;
     }
     header {
         background-size: 2880px;
@@ -772,7 +774,8 @@ h1 {
 @media screen and (min-width: 1440px) {
     .container {
         padding: 0 75px;
-        min-width: 1290px;
+        width: 1290px;
+        margin: 0 auto;
     }
     header {
         background-size: 2880px;
@@ -809,6 +812,7 @@ h1 {
 }
 @media screen and (min-width: 1600px) {
     .container {
-        padding: 0 300px;
+        width: 1290px;
+        margin:  0 auto;
     }
 }

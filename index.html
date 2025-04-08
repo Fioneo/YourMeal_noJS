@@ -278,5 +278,19 @@
         });
       });
     </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const buttons = document.querySelectorAll(".button_nav");
+    
+        buttons.forEach(button => {
+          button.addEventListener("click", () => {
+            // Удаляем активный класс у всех кнопок
+            buttons.forEach(btn => btn.classList.remove("button_nav_active"));
+            // Добавляем активный класс к нажатой кнопке
+            button.classList.add("button_nav_active");
+          });
+        });
+      });
+    </script>
 </body>
 </html>
