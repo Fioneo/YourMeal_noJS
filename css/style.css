@@ -729,10 +729,6 @@ h1 {
     .footer_img {
         display: none;
     }
-    .footer_img_deksop {
-        margin-right: 242px;
-        margin-bottom: 59px;
-    }
     .dekstop_footer {
         display: flex;
         align-items: center;
@@ -767,6 +763,10 @@ h1 {
     .footer_img_dekstop {
         display: block;
         margin-right: 242px;
+        margin-bottom: 80px;
+    }
+    .all-contacts {
+        gap: 50px;
     }
 }
 @media screen and (min-width: 1440px) {
@@ -801,6 +801,10 @@ h1 {
     }
     .footer_img_dekstop {
         margin-right: 360px;
+        margin-bottom: 80px;
+    }
+    .all-contacts {
+        gap: 126px;
     }
 }
 @media screen and (min-width: 1600px) {
